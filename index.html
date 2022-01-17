@@ -1,26 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es-MX">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="Ociel Garcia Padilla">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Ociel Garcia Padilla">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Oswald&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
     <title>ocielgp.com</title>
 </head>
 
 <body>
-    <section class="about">
-        <div class="box">
-            <img src="me.jpg" alt="Me" style="width: 150px; height: auto;">
-            <h1>Portafolio en construcción</h1>
+    <section class="container-fluid">
+        <header>
+            <div class="links">
+                <a href="https://facebook.com/ocielgp" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="mailto:ocielgp@outlook.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/ocielgp"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </header>
+
+        <div class="row align-items-center home">
+            <div class="col align-self-center text-center">
+                <img src="img/ociel.jpg" alt="Ociel Garcia Padilla">
+                <h2 class="pt-3">OCIEL GARCÍA PADILLA</h2>
+                <h4 id="about-text">&nbsp;</h4>
+            </div>
         </div>
+
+        <footer>
+            <div class="location">
+                <span>La Piedad, Mich @ <span id="year"></span></span>
+            </div>
+        </footer>
     </section>
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/64032d7ebe.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
