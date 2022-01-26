@@ -3,8 +3,7 @@
   const aboutTextList = [
     'PROGRAMADOR',
     'DESARROLLADOR WEB',
-    'ARMADO DE COMPUTADORAS',
-    'INGENIERO EN SISTEMAS COMPUTACIONALES',
+    'ARMADO DE COMPUTADORAS'
   ]
   let letterCount = 0;
   let currentText = 0;
